@@ -29,9 +29,11 @@ public:
 		  }    
 		   void OperatorControl()
 	      {	
-	        motorLeft->Set(joystickLeft->GetY() * fabs(joystickLeft->GetY()));
+			motorLeft->Set(joystickLeft->GetY() * fabs(joystickLeft->GetY()));
 		    	motorRight->Set(joystickRight->GetY() * fabs(joystickRight->GetY()) * -1.0);
+		    	
 		    	int totecount = 0
+		    	
 		    	if(Rjoystick->GetRawButton(4){
 		      
 		      	Wait(2);
